@@ -1,0 +1,12 @@
+.cache
+.upm
+.config
+replit.nix
+replit_zip_error_log.txt
+pyproject.toml
+.replit
+Aula-1.zip 
+.breakpoints
+venv
+poetry.lock
+Python
