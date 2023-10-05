@@ -1,319 +1,129 @@
-# Din-Din API
+# Meu Repositório Python
 
-Desafio-Back-end-03-dindin-dbeifood
+Este repositório contém vários arquivos e pastas relacionados ao meu aprendizado em Python. Abaixo, descrevo a estrutura do projeto e os exercícios presentes na pasta "Exercicios".
 
-## Descrição
+## Estrutura do Projeto
 
-Bem-vindo(a) à documentação da nossa API de gestão financeira Din-Din API. Com esta API, você poderá gerenciar com muito mais conforto a sua vida financeira.
+- 📘 **Aulinhas**: Esta pasta contém arquivos relacionados aos conceitos básicos da linguagem Python. Aqui estão os arquivos presentes nesta pasta:
 
-A nossa API foi desenvolvida para simplificar o controle financeiro das pessoas. Com ela, você poderá acompanhar saldos, gerar relatórios de transferências e consultar extratos entre outras funcionalidades.
+    - 📖 `dicionarios`: Contém exemplos de uso de dicionários em Python.
+        - `filter.py`: Demonstração do uso da função `filter`.
+        - `forloops.py`: Exemplos de loops `for`.
+        - `generetaor_expressions.py`: Introdução a expressões geradoras.
+        - `key_values.py`: Exemplos de manipulação de chaves em dicionários.
+        - `lambda.py`: Uso de funções lambda em Python.
+        - `list_comprehension.py`: Demonstração de list comprehensions.
+        - `maps.py`: Exemplos de uso da função `map`.
 
-Nossa documentação é abrangente e oferece todas as informações necessárias para você começar a utilizar a API. Ela inclui detalhes sobre os endpoints disponíveis, os parâmetros de entrada e saída, exemplos de código, autenticação e segurança, entre outros.
+    - 🛠️ `erros/`: Contém exemplos de tratamento de erros em Python.
+        - `else_finally.py`: Uso das cláusulas `else` e `finally` com exceções.
+        - `try_except.py`: Demonstração de tratamento de exceções com `try` e `except`.
 
-A documentação também apresenta as melhores práticas para utilização da API e dicas para otimizar o desempenho e a segurança da integração utilizando o padrão REST.
 
-Caso precise de ajuda, nossa equipe de suporte técnico está pronta para ajudá-lo(a) a implementar a API da melhor forma possível.
 
-Estamos animados em tê-lo(a) como nosso(a) cliente e esperamos que a nossa API de gestão financeira seja uma ferramenta valiosa para sua empresa. Obrigado por escolher a nossa plataforma e aproveite ao máximo nossa documentação!
 
-Atenciosamente,
-Equipe de desenvolvimento da Din-Din API.
 
-## Instalação
+    - 🧩 `functions/`: Contém exemplos relacionados a funções em Python.
+        - `default_nondefault.py`: Uso de argumentos padrão e não padrão em funções.
+        - `functions.py`: Exemplos de criação e chamada de funções.
+        - `modulo.py`: Importação de módulos e funções.
+        - `return.py`: Uso de `return` em funções.
+        - `xargs.py`: Exemplos de uso de *args em funções.
 
-1. Clone este repositório: `git clone git@github.com:rdvid/desafio-backend-03-dindin-dbeifood.git`
-2. Navegue até a pasta do seu repositório local: `cd desafio-backend-03-dindin-dbeifood`
-3. Instale as dependencias necessárias: `npm install`
-4. Inicialize o projeto no terminal: `npm run dev`
+    - 📃 `listas/`: Contém exemplos relacionados a listas em Python.
+        - `array.py`: Demonstração de arrays em Python.
+        - `if.py`: Uso de estruturas condicionais com listas.
+        - `listas.py`: Operações básicas em listas.
+        - `manipulando.py`: Manipulação de listas.
+        - `sets.py`: Introdução a conjuntos em Python.
+        - `split.py`: Uso da função `split`.
+        - `tuples_list.py`: Exemplos de tuplas e listas.
+        - `unpacking.py`: Demonstração do desempacotamento de listas e tuplas.
+        - `zip.py`: Uso da função `zip`.
 
-## Como Usar
+    - 🔄 `loops/`: Contém exemplos relacionados a loops em Python.
+        - `if.py`: Uso de estruturas condicionais em loops.
+        - `nested_loops.py`: Exemplos de loops aninhados.
+        - `range.py`: Demonstração do uso da função `range`.
+        - `simbolo_loop.py`: Uso do símbolo `for` em loops.
+        - `strings.py`: Manipulação de strings em loops.
+        - `treinamento.py`: Exemplos de treinamento com loops.
+        - `while.py`: Uso da estrutura de repetição `while`.
 
-Uma vez rodando, a nossa API pode ser acessada através de requisições HTTP por um cliente local.
+    - 🧬 `OOP/`: Contém exemplos relacionados a Programação Orientada a Objetos (OOP).
+        - `classes.py`: Criação de classes em Python.
+        - `contrutores_self.py`: Uso de construtores e a referência `self`.
+        - `date_time.py`: Manipulação de datas e horas.
+        - `parametros_objetos.py`: Exemplos de passagem de parâmetros entre objetos.
+        - `self.py`: Uso da palavra-chave `self` em classes.
 
-### Endpoints
+    - 🚀 `primeiros_passos/`: Contém exemplos iniciais de programação em Python.
+        - `formated_string.py`: Formatação de strings.
+        - `if_else.py`: Uso de estruturas condicionais `if-else`.
+        - `logical_operator.py`: Exemplos de operadores lógicos.
+        - `multiplos_operadores.py`: Demonstração de múltiplos operadores.
+        - `numeros.py`: Manipulação de números em Python.
+        - `operador_de_atribuição.py`: Uso de operadores de atribuição.
+        - `operador_ternario.py`: Utilização de operadores ternários.
+        - `slice.py`: Exemplos de fatiamento de sequências.
+        - `variaveis_e_input.py`: Trabalhando com variáveis e entrada de dados.
+     
+ <br>
 
-Endpoins disponíveis até o momento:
+ - ### **Exercicios**: Nesta pasta estão exercícios relacionados ao aprendizado em Python. Abaixo, descrevo cada um deles:
 
-### **Login do usuário**
+ 
 
-- `POST /login`: Essa rota é uma tela de login, ela demanda um objeto no corpo da requisição, contendo "email" e "senha" (Atenção com a estrutura do objeto, é fundamental que a requisição respeite as nomenclaturas). Esta rota retorna o usuário cadastrado e um Token JWT que pode e deve ser usado para acessar demais rotas referentes as credenciais informadas.
+ 
+   ## 📊 Calculadora.py - Cálculo de IMC (Índice de Massa Corporal)
+   
+	Este programa calcula o Índice de Massa Corporal (IMC) com base na altura (em centímetros) e no peso (em quilogramas) fornecidos pelo usuário.
+	O IMC é uma métrica comumente usada para avaliar a saúde com 	base no peso corporal. O programa segue as diretrizes a seguir:
 
-#### **Exemplo de Requisição**
+	O usuário é solicitado a inserir sua altura em centímetros e seu peso em quilogramas.
 
-```javascript
-// POST /login
-{
-    "email": "jose@email.com",
-    "senha": "123456"
-}
-```
+	O IMC é calculado usando a fórmula: IMC = peso / (altura / 100)^2.
 
-#### **Exemplo de Resposta**
+	O resultado do IMC é classificado em uma das categorias de saúde, incluindo "MAGREZA," "NORMAL," "SOBREPESO," "OBESIDADE," e "OBESIDADE GRAVE," de acordo com os valores de referência.
 
-```javascript
-// HTTP Status 200
-{
-    "usuario": {
-        "id": 1,
-        "nome": "José",
-        "email": "jose@email.com"
-    },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjIzMjQ5NjIxLCJleHAiOjE2MjMyNzg0MjF9.KLR9t7m_JQJfpuRv9_8H2-XJ92TSjKhGPxJXVfX6wBI"
-}
-```
 
-### **Cadastrar usuário**
 
-- `POST /usuario`: Esta rota é uma tela de cadastramento, com ela novos usuários podem se registrar e assim fazer uso da aplicação. Ela recebe um Objeto JSON no corpo da requisição com os campos/propriedades: "nome", "email" e "senha". (não se preocupe, a senha é armazenada de forma segura no banco de dados através de criptografia aplicada):
+    ## 🎨 CalcularRendimentoTinta.py - Cálculo da Quantidade de Tinta
+   
+	Este programa é projetado para calcular a quantidade de tinta necessária para pintar uma parede com base nas informações fornecidas pelo usuário. O programa segue as seguintes etapas:
 
-#### **Examplo de requisição**
+	O usuário é solicitado a inserir o rendimento da tinta em metros quadrados por litro,
+	 a altura da parede em metros e a largura da parede em metros.
+	A área da parede é calculada multiplicando a altura pela largura.
 
-```javascript
-// POST /usuario
-{
-    "nome": "José",
-    "email": "jose@email.com",
-    "senha": "123456"
-}
-```
+	O programa então determina a quantidade total de latas de tinta necessárias para cobrir a parede e exibe a resposta.
 
-#### **Exemplos de resposta**
 
-```javascript
-// HTTP Status 200 / 201 / 204
-{
-    "id": 1,
-    "nome": "José",
-    "email": "jose@email.com"
-}
-```
 
-- `PUT /usuario`: Essa rota serve para editar as informações de um usuário já existente dentro da plataforma. "nome", "email" e "senha" novos são necessários nessa operação.
+    ## 🚗 FiltroFuncionario.py - Filtragem de Funcionários por Critérios
+   
+	Neste exercício, o objetivo é gerar três listas de funcionários com base em critérios específicos:
 
-#### **Exemplo de requisição**
+	lista1: Funcionários que têm carro e trabalham à noite.
 
-```javascript
-// PUT /usuario
-{
-    "nome": "José de Abreu",
-    "email": "jose_abreu@email.com",
-    "senha": "j4321"
-}
-```
-
-#### **Exemplos de resposta**
-
-```javascript
-// HTTP Status 200 / 201 / 204
-// Sem conteúdo no corpo (body) da resposta
-```
-
-### **Listar categorias**
-
-- `GET /categoria`: Essa rota serve para listar todas as categorias de transações registradas até o momento.
-
-#### **Exemplo de requisição**
-
-```javascript
-// GET /categoria
-// Não é necessário enviar nenhum dado para essa operação.
-```
-
-#### **Exemplos de resposta**
-
-```javascript
-// HTTP Status 200 / 201 / 204
-[
-  {
-    id: 1,
-    descricao: "Roupas",
-  },
-  {
-    id: 2,
-    descricao: "Mercado",
-  },
-];
-```
-
-```javascript
-// HTTP Status 200 / 201 / 204
-[];
-```
-
-### **Listar transações**
-
-- `GET /transacao/`: Essa rota lista todas as transações da conta conectada.
-
-#### **Exemplo de requisição**
-
-```javascript
-// GET /transacao
-// Não é necessário enviar nenhum dado para essa operação.
-```
-
-#### **Exemplos de resposta**
-
-```javascript
-// HTTP Status 200 / 201 / 204
-[
-  {
-    id: 1,
-    tipo: "saida",
-    descricao: "Sapato amarelo",
-    valor: 15800,
-    data: "2022-03-23T15:35:00.000Z",
-    usuario_id: 5,
-    categoria_id: 4,
-    categoria_nome: "Roupas",
-  },
-  {
-    id: 3,
-    tipo: "entrada",
-    descricao: "Salário",
-    valor: 300000,
-    data: "2022-03-24T15:30:00.000Z",
-    usuario_id: 5,
-    categoria_id: 6,
-    categoria_nome: "Salários",
-  },
-];
-```
-
-```javascript
-// HTTP Status 200 / 201 / 204
-[];
-```
-
-### **Detalhar uma transação do usuário logado**
-
-- `GET /transacao/:id`: Ao especificar o numero de alguma transação na url, é retornado o detalhamento dessa transação.
-
-#### **Exemplo de requisição**
-
-```javascript
-// GET /transacao/2
-// Sem conteúdo no corpo (body) da requisição
-```
-
-#### **Exemplos de resposta**
-
-```javascript
-// HTTP Status 200 / 201 / 204
-{
-    "id": 3,
-    "tipo": "entrada",
-    "descricao": "Salário",
-    "valor": 300000,
-    "data": "2022-03-24T15:30:00.000Z",
-    "usuario_id": 5,
-    "categoria_id": 6,
-    "categoria_nome": "Salários",
-}
-```
-
-### **Registar uma transacao**
-
-- `POST /transacao`: Essa rota serve para registrar uma transação. Para que isso aconteça é necessário que, no corpo da requisição, seja adicionado um objeto JSON contendo "tipo", "descricao", "valor", "data", "id da categoria da transacao" (Atente-se a forma como as propriedades do JSON são escritas, é necessário respeitar a verbosidade).
-
-#### **Exemplo de requisição**
-
-```javascript
-// POST /transacao
-{
-    "tipo": "entrada",
-    "descricao": "Salário",
-    "valor": 300000,
-    "data": "2022-03-24T15:30:00.000Z",
-    "categoria_id": 6
-}
-```
-
-#### **Exemplos de resposta**
-
-```javascript
-// HTTP Status 200 / 201 / 204
-{
-    "id": 3,
-    "tipo": "entrada",
-    "descricao": "Salário",
-    "valor": 300000,
-    "data": "2022-03-24T15:30:00.000Z",
-    "usuario_id": 5,
-    "categoria_id": 6,
-    "categoria_nome": "Salários",
-}
-```
-
-### **Atualizar transação do usuário logado**
-
-- `PUT /transacao/:id`: Ao utilizar o metodo PUT em uma transação especificada através de um ID, é possível alterar algumas informações como: "descricao", "valor", "data", "categoria_id" e "tipo", passados através de um objeto JSON informado no corpo da requisição.
-
-#### **Exemplo de requisição**
-
-```javascript
-// PUT /transacao/2
-{
-	"descricao": "Sapato amarelo",
-	"valor": 15800,
-	"data": "2022-03-23 12:35:00",
-	"categoria_id": 4,
-	"tipo": "saida"
-}
-```
-
-#### **Exemplos de resposta**
-
-```javascript
-// HTTP Status 200 / 201 / 204
-// Sem conteúdo no corpo (body) da resposta
-```
-
-### **Excluir transação do usuário logado**
-
-- `DELETE /transacao/:id`: Essa rota deleta uma transação especifica.
-
-#### **Exemplo de requisição**
-
-```javascript
-// DELETE /transacao/2
-//
-```
-
-#### **Exemplos de resposta**
-
-```javascript
-// HTTP Status 200 / 201 / 204
-// Sem conteúdo no retorno
-```
-
-### **Obter extrato de transações**
-
-- `GET /transacao/extrato`: Ao utilizar a rota de extrato, é retornado um objeto JSOn que informa a totalidade somada dos valores que sairam e que entraram na conta até o momento atual:
-
-#### **Exemplo de requisição**
-
-```javascript
-// DELETE /transacao/extrato
-// Sem conteúdo no corpo (body) da requisição
-```
-
-#### **Exemplos de resposta**
-
-```javascript
-// HTTP Status 200 / 201 / 204
-{
-	"entrada": 300000,
-	"saida": 15800
-}
-```
-
-para utilizar a API, utilize um serviço para requisições HTTP como Axios ou HTTPModule em Angular ou uma aplicação para requisições como [Postman](https://www.postman.com/), [Insomnia](https://insomnia.rest/) or [cURL](https://curl.se/).
-
-## Desenvolvedores
-
-| [<img src="https://avatars.githubusercontent.com/u/65367617" width=115><br><sub>Diego Oliveira</sub>](https://github.com/1983-diego) | [<img src="https://avatars.githubusercontent.com/u/60834135" width=115><br><sub>Rafael David</sub>](https://github.com/rdvid) |
-| :----------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: |
-
-## Contact
-
-If you have any questions or suggestions about this project, feel free to contact me through my GitHub profile: [@rdvid](https://github.com/rdvid).
+	lista2: Funcionários que têm carro e trabalham durante o dia.
+
+	lista3: Funcionários que não têm carro.
+
+	Os nomes dos funcionários estão predefinidos na lista funcionarios, e as listas resultantes são geradas usando operações de conjunto em Python.
+
+    ## 🍖 Temperatura_da_carne.py - Determinação do Ponto de Cozimento da Carne
+   
+	Este programa recebe a temperatura fornecida pelo usuário e determina o ponto de cozimento da carne em português com base na seguinte tabela:
+
+	48°C: Rare (Selada)
+   
+	54°C: Medium rare (ao ponto para o mal)
+   
+	60°C: Medium (ao ponto)
+   
+	65°C: Medium well (ao ponto para o bem)
+   
+	71°C ou mais: Well done (bem passada)
+   
+	O programa compara a temperatura inserida pelo usuário com os valores da tabela e retorna o ponto de cozimento correspondente.
