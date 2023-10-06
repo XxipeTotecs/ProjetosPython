@@ -2,6 +2,21 @@
 
 Este repositório contém vários arquivos e pastas relacionados ao meu aprendizado em Python. Abaixo, descrevo a estrutura do projeto e os exercícios presentes na pasta "Exercicios".
 
+
+
+
+
+
+
+
+
+
+
+
+
+<p><img align="right" src="https://user-images.githubusercontent.com/29899042/209016241-ed8f02ec-daaa-4ee3-95b9-b7c7075074b8.gif" alt="adam-pw" /></p>
+
+
 ## Estrutura do Projeto
 
 - 📘 **Aulinhas**: Esta pasta contém arquivos relacionados aos conceitos básicos da linguagem Python. Aqui estão os arquivos presentes nesta pasta:
@@ -74,6 +89,8 @@ Este repositório contém vários arquivos e pastas relacionados ao meu aprendiz
 
  
 
+
+
  
    ## 📊 Calculadora.py - Cálculo de IMC (Índice de Massa Corporal)
    
@@ -111,6 +128,8 @@ Este repositório contém vários arquivos e pastas relacionados ao meu aprendiz
 	lista3: Funcionários que não têm carro.
 
 	Os nomes dos funcionários estão predefinidos na lista funcionarios, e as listas resultantes são geradas usando operações de conjunto em Python.
+
+
 
     ## 🍖 Temperatura_da_carne.py - Determinação do Ponto de Cozimento da Carne
    
