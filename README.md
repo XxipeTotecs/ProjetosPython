@@ -1,4 +1,4 @@
-# Meu Repositório Python
+# Meu Repositório Python 
 
 Este repositório contém vários arquivos e pastas relacionados ao meu aprendizado em Python. Abaixo, descrevo a estrutura do projeto e os exercícios presentes na pasta "Exercicios".
 
