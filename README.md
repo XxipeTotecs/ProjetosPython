@@ -4,16 +4,6 @@ Este repositório contém vários arquivos e pastas relacionados ao meu aprendiz
 
 
 
-
-
-
-
-
-
-
-
-
-
 <p><img align="right" src="https://user-images.githubusercontent.com/29899042/209016241-ed8f02ec-daaa-4ee3-95b9-b7c7075074b8.gif" alt="adam-pw" /></p>
 
 
@@ -104,6 +94,9 @@ Este repositório contém vários arquivos e pastas relacionados ao meu aprendiz
 	O resultado do IMC é classificado em uma das categorias de saúde, incluindo "MAGREZA," "NORMAL," "SOBREPESO," "OBESIDADE," e "OBESIDADE GRAVE," de acordo com os valores de referência.
 
 
+	<p><img align="center" src="https://github.com/XxipeTotecs/ProjetosPython/blob/master/exercicios/prints/image.png" alt="adam-pw" height="400" width="600" /></p>
+
+	<br><br>
 
     ## 🎨 CalcularRendimentoTinta.py - Cálculo da Quantidade de Tinta
    
@@ -115,7 +108,11 @@ Este repositório contém vários arquivos e pastas relacionados ao meu aprendiz
 
 	O programa então determina a quantidade total de latas de tinta necessárias para cobrir a parede e exibe a resposta.
 
+	<p><img align="center" src="https://github.com/XxipeTotecs/ProjetosPython/blob/master/exercicios/prints/imageTintas.png" alt="adam-pw" height="400" width="600" /></p>
+ 
+	<br> <br>
 
+ 	
 
     ## 🚗 FiltroFuncionario.py - Filtragem de Funcionários por Critérios
    
@@ -128,6 +125,10 @@ Este repositório contém vários arquivos e pastas relacionados ao meu aprendiz
 	lista3: Funcionários que não têm carro.
 
 	Os nomes dos funcionários estão predefinidos na lista funcionarios, e as listas resultantes são geradas usando operações de conjunto em Python.
+
+	<p><img align="center" src="https://github.com/XxipeTotecs/ProjetosPython/blob/master/exercicios/prints/funcionarios.png" alt="adam-pw" height="400" width="600" /></p>
+
+	<br><br>
 
 
 
@@ -146,3 +147,7 @@ Este repositório contém vários arquivos e pastas relacionados ao meu aprendiz
 	71°C ou mais: Well done (bem passada)
    
 	O programa compara a temperatura inserida pelo usuário com os valores da tabela e retorna o ponto de cozimento correspondente.
+
+	<p><img align="center" src="https://github.com/XxipeTotecs/ProjetosPython/blob/master/exercicios/prints/tempCarne.png" alt="adam-pw" height="400" width="600" /></p>
+
+	<br><br>
